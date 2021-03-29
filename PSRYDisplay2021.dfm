@@ -28,7 +28,6 @@ object Form2: TForm2
     Height = 75
     Align = alBottom
     TabOrder = 0
-    ExplicitTop = 956
     object Label6: TLabel
       Left = 80
       Top = 24
@@ -59,8 +58,6 @@ object Form2: TForm2
     Height = 860
     Align = alClient
     TabOrder = 1
-    ExplicitTop = 80
-    ExplicitHeight = 876
     object ImageHydeYardPort: TImage
       Left = 0
       Top = 0
