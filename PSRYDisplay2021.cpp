@@ -6,7 +6,6 @@
 #pragma hdrstop
 
 #include "PSRYDisplay2021.h"
-#include "ThrottleUnit.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
@@ -425,11 +424,10 @@ void TForm2::WriteServer(String Type, String ImageName, int Col, int Row, String
 }
 //---------------------------------------------------------------------------
 
+void __fastcall TForm2::RefreshScreensClick(TObject *Sender)
+{
+	WriteServer("Refresh", "", 0, 0, "");
 
-
-
-
-
-
-
+}
+//---------------------------------------------------------------------------
 

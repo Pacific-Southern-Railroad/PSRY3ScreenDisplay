@@ -43,6 +43,7 @@ __published:	// IDE-managed Components
 	TEdit *Disconnects;
 	TLabel *Label5;
 	TLabel *Label6;
+	TButton *RefreshScreens;
    void __fastcall FormActivate(TObject *Sender);
    void __fastcall ClientSocketRead(TObject *Sender,
           TCustomWinSocket *Socket);
@@ -59,6 +60,7 @@ __published:	// IDE-managed Components
    void __fastcall ImageNassauCliffMouseDown(TObject *Sender,
           TMouseButton Button, TShiftState Shift, int X, int Y);
 	void __fastcall WatchdogTimer(TObject *Sender);
+	void __fastcall RefreshScreensClick(TObject *Sender);
 
 private:	// User declarations
 

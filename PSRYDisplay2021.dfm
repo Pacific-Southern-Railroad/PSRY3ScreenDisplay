@@ -50,6 +50,15 @@ object Form2: TForm2
       ParentFont = False
       TabOrder = 0
     end
+    object RefreshScreens: TButton
+      Left = 600
+      Top = 24
+      Width = 75
+      Height = 25
+      Caption = 'Refresh Screens'
+      TabOrder = 1
+      OnClick = RefreshScreensClick
+    end
   end
   object PanelX: TPanel
     Left = 0
